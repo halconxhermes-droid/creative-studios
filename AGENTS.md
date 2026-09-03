@@ -71,3 +71,7 @@ projects/<proyecto-id>/
 - **No saltarse pasos del ciclo.** La evaluación cruzada es obligatoria para entregables que cruzan filiales.
 - **No destruir trabajo.** Rechazos = nueva versión, no borrado.
 - **No inventar datos del mundo.** El continuista es la autoridad; cualquier inconsistencia se reporta, no se "arregla" silenciosamente.
+
+## Scripts del estudio
+
+- **`scripts/build_deliverable.py`** — Empaqueta un proyecto aprobado en `outputs/<id>-bundle.zip` con todos los artefactos: manuscrito final, pitch, guion técnico, brief artístico, evaluación cruzada, wiki y `CREDITOS.md`. Acepta `--version vN.M` (default `v1.0`) y `--force` para sobrescribir tags existentes. Tras empaquetar, intenta `git commit` + `git tag <id>/<version>` en el sub-repo del proyecto. Uso: `python3 scripts/build_deliverable.py <proyecto-id> [--version v1.0]`. Solo el Director de Estudio debe ejecutarlo (ver CYCLE.md paso 8).
