@@ -1,0 +1,45 @@
+{
+  "$schema": "guion_manga_v1",
+  "obra": "<título>",
+  "autor": "<escritor original>",
+  "guionista": "<agente-guionista>",
+  "fecha": "<YYYY-MM-DD>",
+  "formato": "manga",
+  "paginas_total": 8,
+  "estilo_visual": {
+    "paleta": ["#hex1", "#hex2"],
+    "tipografia": "fuente",
+    "referencias": ["obra1", "obra2"]
+  },
+  "paginas": [
+    {
+      "numero": 1,
+      "layout": "2x2 | 1+2 | splash+3 | custom",
+      "viñetas": [
+        {
+          "numero": 1,
+          "posicion": "top-left",
+          "tamano": "medio",
+          "descripcion_visual": "<qué se ve: personajes, escenario, ángulo, iluminación>",
+          "dialogo": [
+            {
+              "personaje": "<nombre>",
+              "texto": "<línea>",
+              "tipo": "habla | pensamiento | susurro | grito",
+              "posicion_burbuja": "top-right"
+            }
+          ],
+          "ef": "<texto de efecto de sonido o null>",
+          "sfx": "<sonido onomatopéyico>",
+          "notas_director_arte": "<estilo, paleta, mood>"
+        }
+      ]
+    }
+  ],
+  "metadata_produccion": {
+    "formato_pagina": "B5 | A5 | US Letter | custom",
+    "orientacion": "vertical | horizontal",
+    "lettering": "manual | digital",
+    "impresion": "blanco-negro | color"
+  }
+}
