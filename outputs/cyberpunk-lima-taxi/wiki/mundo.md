@@ -1,7 +1,6 @@
 # Mundo — El Taxi de la Memoria
 
-> Wiki extraída del pitch y brief aprobados. Solo hechos explícitos en los documentos fuente.
-> Capítulo 01 aún no existe; esta wiki se construirá增量 a medida que se escriba.
+> Wiki extraída del pitch, brief y capítulo 01 aprobados. Solo hechos explícitos.
 
 ---
 
@@ -10,82 +9,47 @@
 | Campo | Detalle |
 |---|---|
 | **Ciudad** | Lima, Perú |
-| **Época** | Año 2099 |
-| **Barrios mencionados** | Centro Histórico, lomas de Miraflores |
-| **Calles** | Jirones (típicos del Centro Histórico de Lima) |
-| **Nivel urbano** | Ciudad con neón sobre el Centro Histórico y hologramas |
-
-> Los límites exactos de la ciudad en 2099 no se especifican en pitch/brief. Solo se nombran las áreas acima.
-
----
+| **Época** | Año 2099 (presente del relato) |
+| **Barrios mencionados** | Centro Histórico, Barranco, Miraflores (lomas), San Juan de Lurigancho, Villa El Salvador, Chorrillos, Surco, Chorrillos, Malecón de la Reserva, Plaza de Armas, jirón Amazonas, jirón Sáenz Peña, jirón de la Unión, lomas de Lurín, playas de Ancón |
+| **Ríos** | Río Rímac (con hologramas de géiseres sobre su superficie) |
+| **Niveles urbanos** | Nivel 1 (comercial, hasta 500m), Nivel 2 (residencial, hasta 1km), Nivel 3 (militar/gobierno, sin techo) |
 
 ## Tecnología
 
 | Campo | Detalle |
 |---|---|
-| **Taxis voladores** | Medio de transporte principal; operan en rutas aéreas |
-| **Hologramas** | Presentes en la ciudad; parte de la iconografía visual |
-| **Sistema de créditos biométricos** | Pago por huella retinal + pulso cardíaco. Anónimo pero rastreable por el Banco Central de Memoria |
-| **Taxi como archivo ambulante** | Los recuerdos se encienden en el parabrisas antes de apagarse |
-| **Memoria borrada** | Tecnología o práctica de borrar memoria; se usa como castigo |
-| **"Eco" mnémico** | Mecanismo por el cual los pasajeros portan fragmentos de memoria de Kaito |
-
-### Sistema de rieles gravitacionales (cap. 01)
-
-| Nivel | Uso | Altitud |
-|---|---|---|
-| **Nivel 1** | Comercial | Hasta 500 m |
-| **Nivel 2** | Residencial | Hasta 1 km |
-| **Nivel 3** | Militar / Gobierno | Sin techo |
-
-### Cigarrillos electrónicos (cap. 01)
-
-- Nicotina pura: legal desde 2087.
-- Tabaco tradicional: prohibido en espacios cerrados.
-
-### Modelo Cóndor 7 (cap. 01)
-
-- Fabricante: Embraer-Sikursky Perú.
-- Año de fabricación: 2092.
-- Autonomía: 400 km.
-- Capacidad: 2 pasajeros + conductor.
-- Licencia del conductor: segunda clase.
-
-### Reglas del sistema de recuerdos
-
-1. Cada pasajero que sube al taxi porta un "eco" mnémico — un recuerdo que Kaito repartió sin saber al ser borrado.
-2. Los recuerdos se muestran visualmente en el parabrisas (efecto visual que se enciende y apaga).
-3. Kaito puede elegir borrar una transacción/recuerdo o no hacerlo.
-4. El mosaico completo de recuerdos revelaría quién fue Kaito.
-
----
+| **Taxis voladores** | Operan en rieles gravitacionales. Modelo Cóndor 7 (fabricado por Embraer-Sikorsky Perú, autonomía 400km, capacidad 2 pasajeros + conductor) |
+| **Pago** | Sistema de créditos biométricos: pago por huella retinal + pulso cardíaco. Anónimo pero rastreable por el Banco Central de Memoria |
+| **Hologramas** | Publicitarios, de géiseres, de tiendas de memoria sintética. Parpadean en quechua, español e inglés |
+| **Implantes** | Cibernéticos (ojos de visión nocturna), biométricos (retina, pulso). Cigarrillos electrónicos permitidos (nicotina pura); tabaco prohibido |
+| **Navegador** | Sistema cuántico integrado en el taxi. Susurra rutas óptimas directamente en el oído interno del conductor |
 
 ## Sociedad
 
 | Campo | Detalle |
 |---|---|
-| **División** | Barrios bajos de Lima (origen de Kaito) vs. ciudad neón (presente) |
-| **Castigo** | Borrar la memoria de alguien es una forma de castigo documentada |
-| **Trabajo nocturno** | El turno nocturno es una actividad social normalizada; Kaito es taxista de noche |
-| **Relación persona-ciudad** | La ciudad ya no es humana ("ciudad que ya no lo es", pitch) |
-| **Conexión cultural** | Lima reconocible con neón y hologramas; no folclorismo |
+| **Clases sociales** | Elites en nivel 3, residentes en nivel 2, marginados en nivel 1, analógicos (sin implantes) en conos periféricos |
+| **Economía de memoria** | La memoria es mercancía. Memoria Premium™ vende recuerdos de "mejor versión". La memoria analógica es para marginados |
+| **Lenguaje** | El español domina, con influencias quechua (nana, lomas, huayno). El neón parpadea en 3 idiomas |
+| **Cultura** | Fusion de lo ancestral con lo cyberpunk: huayno en violín electrónico, radio vieja con noticias, fritanga junto a hologramas |
 
----
+## Reglas del mundo
 
-## Reglas narrativas del mundo
-
-| Regla | Detalle |
+| Campo | Detalle |
 |---|---|
-| **Recuerdos como archivos** | Se encienden en el parabrisas; se pueden borrar o no |
-| **Borrado como castigo** | Kaito fue privado de su memoria como castigo |
-| **Cada pasajero = un eco** | Mecánica central: cada pasajero devuelve un fragmento |
-| **"Vacío cómodo"** | Kaito habita un vacío que prefiere al recuerdo |
-| **Volver a ser parte** | Esperanza: al abrazar su nombre, Kaito vuelve a la ciudad |
+| **Ecos** | Fragmentos de memoria que los pasajeros dejan en el parabrisas del taxi. Sistema descubierto por Kaito: cada pasajero activa un recuerdo borrado del conductor |
+| **Tabula Rasa** | Pena judicial de borrado de memoria selectiva. Prohibida por la Convención de Buenos Aires 2081, pero usada en casos de "seguridad nacional" |
+| **Protestas del 2073** | Revueltas por privatización del agua. 347 muertos. Memoria oficialmente sellada por el Gobierno Unificado |
+
+## Timeline histórico
+
+| Año | Evento |
+|---|---|
+| 2073 | Protestas masivas contra privatización del agua → 347 muertos, memoria sellada |
+| 2081 | Firma Convención de Buenos Aires (prohíbe Tabula Rasa) |
+| 2087 | Legalización de cigarrillos electrónicos de nicotina pura |
+| 2092 | Fabricación del Cóndor 7 por Embraer-Sikorsky Perú |
 
 ---
 
-## Notas de continuidad
-
-- **Hechos del mundo confirmados:** 10 (2 geografía + 5 tecnología + 3 sociedad)
-- **Elementos por confirmar en capitulo_01:** zonas de la ciudad no nombradas, gobierno, sistema de castigos, otros mundos de ficción
-- **Actualizado:** basado en pitch.md y brief.md; capítulo 01 aún no existe
+*Actualizado: 2026-09-03, basado en narrativa/borrador/capitulo_01.md*

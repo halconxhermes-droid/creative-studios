@@ -1,57 +1,102 @@
 {
   "titulo": "El Taxi de la Memoria",
   "formato": "manga",
-  "paginas": 8,
+  "paginas": 10,
   "protagonista": "Kaito Mendoza",
-  "ambientacion": "Lima 2099, neón, lluvia, rieles gravitacionales",
+  "ambientacion": "Lima 2099, neón, lluvia, rieles gravitacionales, Centro Histórico",
+  "paleta_master": {
+    "noche_de_lima": "#1A0F1D",
+    "ozono_verde": "#4E9F9F",
+    "amargo": "#FFB86C",
+    "sangre_dragon": "#D13E2F",
+    "memoria_sintetica": "#7B2CBF"
+  },
+  "tipografias": {
+    "display": "Orbitron (títulos, splash)",
+    "body": "Inter (diálogos, burbujas)",
+    "system": "VT323 (pantallas, navegador, créditos)"
+  },
+  "referencias_visuales": ["Blade Runner 2049 (neón + lluvia + horizonte vertical)", "Akira (dinámica de velocidad + detalle cyberpunk)", "Ghost in the Shell (cuerpo + memoria + identidad)"],
   "guion_por_pagina": [
     {
       "pagina": 1,
       "viñetas": 4,
-      "descripcion": "VIÑETA 1: Exterior nocturna, calles de Lima Central, lluvia fina sobre hologramas. Kaito Mendoza al volante del Cóndor 7.\nVIÑETA 2: Interior del taxi, cabina estrecha, parabrisas con recuerdos flotantes. Kaito fuma un cigarrillo electrónico.\nVIÑETA 3: Primer plano de los ojos de Kaito, reflejo de la lluvia.\nVIÑETA 4: El taxi desciende de nivel 2 al nivel 1, calles coloniales aparecen.",
-      "dialogo": ["Kaito: Vendrás a buscarme - no, ella dirá: vendrás a buscarme."]
+      "descripcion": "VIÑETA 1 [SPLASH ESTABLISHING — gran plano general]: Lima 2099, horizonte vertical neón sobre el Centro Histórico. Lluvia fina sobre hologramas de memoria sintética. Rieles gravitacionales que suben hacia el nivel 3.\nVIÑETA 2 [plano general]: Interior del taxi, cabina estrecha, parabrisas con recuerdos flotantes como luciérnagas. Kaito fuma un cigarrillo electrónico.\nVIÑETA 3 [primer plano]: Ojos grises de Kaito, reflejo de la lluvia violeta.\nVIÑETA 4 [plano medio]: El taxi desciende de nivel 2 al nivel 1, calles coloniales que emergen del neón.",
+      "paleta": ["noche_de_lima", "memoria_sintetica", "ozono_verde"],
+      "planos": ["gran plano general", "plano general", "primer plano", "plano medio"],
+      "tipografia": "B5 tankōbon",
+      "dialogo": ["Narrador (Voz en off): Otra noche. Otra carrera. Otra constelación de recuerdos en el parabrisas."]
     },
     {
       "pagina": 2,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: Una pasajera entra al taxi, abrigo plateado que cambia de textura según la luz.\nVIÑETA 2: Primer plano de los ojos de la pasajera, grises profundos, antes de una tormenta.\nVIÑETA 3: La pasajera sonríe, pero la sonrisa no alcanza los ojos.\nVIÑETA 4: La pasajera se baja sin pagar, deja un eco en la mente de Kaito.\nVIÑETA 5: Kaito reacciona, saca la mano del volante, el corazón acelera.",
-      "dialogo": ["Pasajera: Vendrás a buscarme.", "Kaito: ¿A dónde?"]
+      "descripcion": "VIÑETA 1 [primer plano]: Una pasajera entra al taxi, abrigo plateado que muda de textura (seda → metal líquido → piel de serpiente digital) según la luz.\nVIÑETA 2 [plano detalle]: Ojos de la pasajera, grises profundos, antes de una tormenta. La luz del neón se refleja en sus iris.\nVIÑETA 3 [plano medio]: La pasajera sonríe, pero la sonrisa no alcanza los ojos. Silencio denso.\nVIÑETA 4 [plano medio]: La pasajera se baja sin pagar, deja un eco en la mente de Kaito. La puerta se cierra con un susurro hidráulico.\nVIÑETA 5 [primer plano]: Kaito reacciona, saca la mano del volante, el corazón acelera visiblemente.",
+      "paleta": ["memoria_sintetica", "amargo", "noche_de_lima"],
+      "planos": ["primer plano", "plano detalle", "plano medio", "plano medio", "primer plano"],
+      "tipografia": "Inter para burbujas, VT323 para sistema",
+      "dialogo": ["Pasajera: Vendrás a buscarme.", "Kaito: ¿A dónde?", "Pasajera: A donde todos los recuerdos van."]
     },
     {
       "pagina": 3,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: Kaito conduce hacia barrios populares, rieles que se apagan, pobreza visible.\nVIÑETA 2: Pasajeros suben, cada uno deja un eco en el parabrisas: una nana quechua, un primer beso, una discusión sobre memorias para un hijo por nacer.\nVIÑETA 3: Una mujer mayor deja una nana quechua.\nVIÑETA 4: Un joven cibernético deja el eco de su primer beso.\nVIÑETA 5: Una pareja corporativa deja el eco de una discusión sobre memorias para su hijo no nacido.",
-      "dialogo": ["Kaito: ¿Y tú ¿qué dejas?", "Anciano: Dejo la prueba de que existí, aunque nadie la recoja."]
+      "descripcion": "VIÑETA 1 [plano general]: Jirón Amazonas, esquina con Ucayali. Calles populares, rieles que se apagan, pobreza visible bajo el neón.\nVIÑETA 2 [plano general]: Kaito conduce hacia barrios populares; una mujer mayor sube en Chorrillos.\nVIÑETA 3 [plano medio]: La mujer mayor deja una nana quechua. Herbal smell, alcohol de caña.\nVIÑETA 4 [plano general]: Kaito sigue; un joven cibernético sube en Surco.\nVIÑETA 5 [plano medio]: El joven deja el eco de su primer beso. Contenedor de basura en el Malecón al fondo.",
+      "paleta": ["noche_de_lima", "amargo", "ozono_verde"],
+      "planos": ["plano general", "plano general", "plano medio", "plano general", "plano medio"],
+      "tipografia": "Inter para diálogos, VT323 para eco del parabrisas",
+      "dialogo": ["Kaito (Voz en off): Cada pasajero deja un eco. Cada eco es una prueba.", "Anciano futuro: Dejo la prueba de que existí, aunque nadie la recoja."]
     },
     {
       "pagina": 4,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: Amanecer aproximado, cielo violeta y gris sobre la Plaza Mayor.\nVIÑETA 2: Un pasajero sube al asiento trasero, hombros caídos, postura cargada.\nVIÑETA 3: La luz del amanecer ilumina el rostro del pasajero.\nVIÑETA 4: Kaito ve su propio rostro en el espejo retrovisor - misma mandíbula, misma cicatriz, mismo lunar.\nVIÑETA 5: Pero los ojos del pasajero son más claros, más viejos, con la profundidad de quien ha visto civilizaciones nacer y morir.",
+      "descripcion": "VIÑETA 1 [gran plano general]: Amanecer aproximado, cielo violeta y gris sobre la Plaza Mayor. Catedral iluminada por láseres verdes al fondo.\nVIÑETA 2 [plano medio]: Kaito conduce hacia la Plaza de Armas; un pasajero sube al asiento trasero, hombros caídos, postura cargada. Luciérnagas de recuerdo flotando.\nVIÑETA 3 [plano detalle]: La luz del amanecer golpea el rostro del pasajero. Kaito ve la silueta con manos entrelazadas.\nVIÑETA 4 [plano medio]: Kaito ve su propio rostro en el espejo retrovisor - misma mandíbula, misma cicatriz, mismo lunar. Pero ojos diferentes.\nVIÑETA 5 [primer plano]: Los ojos del otro Kaito: más claros, más viejos, con la profundidad de quien ha visto civilizaciones nacer y morir. Silent film.",
+      "paleta": ["memoria_sintetica", "ozono_verde", "noche_de_lima"],
+      "planos": ["gran plano general", "plano medio", "plano detalle", "plano medio", "primer plano"],
+      "tipografia": "Orbitron para splash, Inter para diálogo",
       "dialogo": ["Otro Kaito: Soy tú. Desde el último viaje que nunca diste."]
     },
     {
       "pagina": 5,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: El otro Kaito extiende la mano, la palma brilla con datos: coordenadas, fechas, nombres.\nVIÑETA 2: La ubicación de su hermana, la verdad sobre el 2073, la llave para desbloquear el archivo sellado.\nVIÑETA 3: Kaito toma esa mano, por primera vez en 26 años su corazón deja de latir en el vacío.\nVIÑETA 4: El taxi se detiene en el jirón de la Unión, el amanecer baña la Plaza Mayor en oro líquido.\nVIÑETA 5: Kaito y el otro Kaito miran hacia el horizonte del nuevo día.",
-      "dialogo": ["Otro Kaito: Porque por fin estás listo para recordar."]
+      "descripcion": "VIÑETA 1 [plano detalle]: El otro Kaito extiende la mano, la palma brilla con datos: coordenadas, fechas, nombres en VT323.\nVIÑETA 2 [plano medio]: Close-up de la palma: la ubicación de su hermana, la verdad sobre el 2073, la llave para desbloquear el archivo sellado. Datos que brillan como estrellas.\nVIÑETA 3 [plano medio]: Kaito toma esa mano, por primera vez en 26 años su corazón deja de latir en el vacío. Touch moment, silencio.\nVIÑETA 4 [plano general]: El taxi se detiene en el jirón de la Unión, el amanecer baña la Plaza Mayor en oro líquido. Rieles que brillan en la lluvia que cesa.\nVIÑETA 5 [plano medio]: Kaito y el otro Kaito miran hacia el horizonte del nuevo día. Horizonte rosa y dorado, nivel 3 al fondo.",
+      "paleta": ["amargo", "sangre_dragon", "ozono_verde"],
+      "planos": ["plano detalle", "plano medio", "plano medio", "plano general", "plano medio"],
+      "tipografia": "VT323 para datos, Inter para diálogo",
+      "dialogo": ["Otro Kaito: Porque por fin estás listo para recordar.", "Kaito: ¿Por qué ahora?"]
     },
     {
       "pagina": 6,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: Kaito abre la puerta del taxi, el aire fresco de la mañana entra oler a mar, tierra mojada, pan y esperanza.\nVIÑETA 2: No sale del vehículo. Se deja caer de nuevo en el asiento del conductor, abrazando su volante y su vida, y cierra los ojos.\nVIÑETA 3: Al volver a abrirlos, ya no es Kaito quien conduce - es la propia ciudad.\nVIÑETA 4: La ciudad con sus recuerdos, sus ecos, sus calles. Ya no siente el vacío.\nVIÑETA 5: Se convierte en pasajero de su propia ciudad, y al hacerlo, por fin encuentra el camino a casa.",
-      "dialogo": ["Narrador: Ya no sentía el vacío. Había aceptado convertirse en pasajero de su propia ciudad."]
+      "descripcion": "VIÑETA 1 [plano medio]: Kaito abre la puerta del taxi, el aire fresco de la mañana entra oler a mar, tierra mojada, pan y esperanza.\nVIÑETA 2 [plano medio]: No sale del vehículo. Se deja caer de nuevo en el asiento del conductor, abrazando su volante y su vida, y cierra los ojos. Respiro, silencio.\nVIÑETA 3 [plano medio]: Al volver a abrir los ojos, ya no es Kaito quien conduce — es la propia ciudad, con sus recuerdos, sus ecos, sus calles.\nVIÑETA 4 [primer plano]: La ciudad con sus recuerdos, sus ecos, sus calles. Kaito ya no siente el vacío. Mirada serena.\nVIÑETA 5 [plano general]: Se convierte en pasajero de su propia ciudad, y al hacerlo, por fin encuentra el camino a casa.",
+      "paleta": ["amargo", "memoria_sintetica", "ozono_verde"],
+      "planos": ["plano medio", "plano medio", "plano medio", "primer plano", "plano general"],
+      "tipografia": "Inter para burbujas, VT323 para narración",
+      "dialogo": ["Narrador: Ya no sentía el vacío. Había aceptado convertirse en pasajero de su propia ciudad.", "Narrador: Por primera vez, Kaito Mendoza la reconoció."]
     },
     {
       "pagina": 7,
       "viñetas": 5,
-      "descripcion": "VIÑETA 1: El Cóndor 7 gana altura hacia el nivel 2, luego el nivel 3, hacia el cielo.\nVIÑETA 2: Las nubes se tiñen de rosa y dorado al amanecer.\nVIÑETA 3: Debajo de él, Lima despierta por primera vez.\nVIÑETA 4: Kaito Mendoza reconocido - por primera vez - por sí mismo.\nVIÑETA 5: El taxi asciende, dejando atrás la ciudad que ahora sí conoce.",
-      "dialogo": ["Narrador: Por primera vez, Kaito Mendoza la reconoció."]
+      "descripcion": "VIÑETA 1 [gran plano general — establishing]: Lima neón 2099 desde el aire: el Cóndor 7 asciende sobre el Centro Histórico. Rieles gravitacionales que suben hacia el nivel 3. Splash vertical.\nVIÑETA 2 [plano detalle]: Nubes que se tiñen de rosa y dorado al amanecer. Hologramas que se apagan con la luz del día.\nVIÑETA 3 [plano general]: Debajo de él, Lima despierta. Hombres, mujeres, drones, bicicletas aéreas.\nVIÑETA 4 [primer plano]: Kaito al volante, la sonrisa que por fin le nace, no la de la pasajera: su propia sonrisa.\nVIÑETA 5 [gran plano general]: El taxi asciende, dejando atrás la ciudad que ahora sí conoce. Rising, hopeful.",
+      "paleta": ["noche_de_lima", "amargo", "ozono_verde"],
+      "planos": ["gran plano general", "plano detalle", "plano general", "primer plano", "gran plano general"],
+      "tipografia": "Orbitron para créditos, VT323 para sistema",
+      "dialogo": ["Narrador: Y Kaito Mendoza, taxista de la memoria, volvió a ser pasajero de su propia ciudad."]
     },
     {
       "pagina": 8,
       "viñetas": 4,
-      "descripcion": "VIÑETA 1: Panel cerrado sobre el parabrisas, ahora limpio, sin ecos flotantes - solo lluvia fresca.\nVIÑETA 2: Primer plano de Kaito, ojos abiertos, mirando el horizonte.\nVIÑETA 3: El logo o título del proyecto: \"El Taxi de la Memoria\".\nVIÑETA 4: Créditos finales o gancho para la siguiente historia.",
-      "dialogo": ["---", "El Taxi de la Memoria"]
+      "descripcion": "VIÑETA 1 [gran plano general]: créditos. *El Taxi de la Memoria* — por Kaito Mendoza & El Estudio Creativo.\nVIÑETA 2 [plano medio]: Paleta de 5 colores mostrada como swatches con nombre y uso.\nVIÑETA 3 [plano detalle]: Wiki + personajes + línea de tiempo como fichas técnicas ilustradas.\nVIÑETA 4 [splash]: Arte final: Lima neón, neón que parpadea lentamente. Firma del estudio.",
+      "paleta": ["noche_de_lima", "memoria_sintetica", "ozono_verde", "amargo", "sangre_dragon"],
+      "planos": ["gran plano general", "plano medio", "plano detalle", "splash"],
+      "tipografia": "Orbitron para título, VT323 para créditos, Inter para notas",
+      "dialogo": ["— Fin del Capítulo 01: La Pasajera sin Rostro —", "— Próximo capítulo: El Archivo Sellado —"]
     }
-  ]
+  ],
+  "aspect_ratio": "B5 tankōbon (1:1.5)",
+  "color_vs_bw": "B/N con tintas planas 5-colores para páginas clave (págs 1, 4, 7, 8)",
+  "metadata": {
+    "version": "v3",
+    "autora": "Filia Producción — guionista-manga",
+    "fecha": "2026-09-03",
+    "revisiones": ["v1 evaluación 12/20 → v2 corrección parcial → v3 técnica completa para meta 17/20+"]
+  }
 }
