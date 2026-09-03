@@ -1,7 +1,7 @@
 # Personajes — El Taxi de la Memoria
 
 > Wiki extraída del pitch y brief aprobados. Solo hechos explícitos en los documentos fuente.
-> Capítulo 01 aún no existe; esta wiki se construirá增量 a medida que se escriba.
+> Capítulo 01 aún no existe; esta wiki se construye de forma incremental a medida que se escriba.
 
 ## Kaito Mendoza
 

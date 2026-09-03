@@ -61,3 +61,7 @@ Los entregables finales viven en `/data/studios/creative/projects/<proyecto-id>/
 - `PROCESS.md` — aprobación y rechazo
 - `templates/` — plantillas de artefactos
 - `/data/.hermes/plans/2026-09-03_040010-creative-studios-multi-agent.md` — plan completo
+
+## Scripts
+
+- `scripts/build_deliverable.py` — empaqueta un proyecto aprobado en `outputs/<id>-bundle.zip` con manuscrito, pitch, guion, brief artístico, wiki y `CREDITOS.md`. Uso: `python3 scripts/build_deliverable.py <proyecto-id> [--version v1.0]`. Crea commit + tag git semántico (`<id>/<version>`) automáticamente.

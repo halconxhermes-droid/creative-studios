@@ -47,7 +47,7 @@
 - Contraste claro entre el remanso del BEAT 1 y la irrupción del BEAT 2.
 - El BEAT 3 ahora tiene pausa reflexiva (mejorado vs. v1).
 - El clímax está bien aislado — no se alarga.
-- La resolución tiene sufiente peso emocional: "la sonrisa que por fin le nace, no la de la pasajera: su propia sonrisa".
+- La resolución tiene suficiente peso emocional: "la sonrisa que por fin le nace, no la de la pasajera: su propia sonrisa".
 
 **Nota v2:** 5 — ritmo bien calibrado, sin flancos muertos.
 
